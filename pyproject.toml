@@ -1,0 +1,33 @@
+[project]
+name = "langgraph-advanced-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "arxiv>=2.3.0",
+    "faiss-cpu>=1.12.0",
+    "jupyter>=1.1.1",
+    "langchain>=1.0.2",
+    "langchain-anthropic>=1.0.0",
+    "langchain-classic>=1.0.0",
+    "langchain-community>=0.4.1",
+    "langchain-mcp-adapters>=0.1.12",
+    "langchain-openai>=1.0.1",
+    "langchain-tavily>=0.2.12",
+    "langchain-teddynote>=0.5.4",
+    "langgraph>=1.0.1",
+    "langgraph-checkpoint-postgres>=3.0.0",
+    "langgraph-checkpoint-redis>=0.1.2",
+    "matplotlib>=3.10.7",
+    "mcp>=1.21.0",
+    "notebook>=7.4.7",
+    "pandas>=2.3.3",
+    "pdfplumber>=0.11.8",
+    "psycopg2>=2.9.11",
+    "psycopg[binary,pool]>=3.2.12",
+    "pymupdf>=1.26.6",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+]
