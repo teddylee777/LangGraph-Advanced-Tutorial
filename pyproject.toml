@@ -1,8 +1,12 @@
 [project]
 name = "langgraph-advanced-tutorial"
 version = "0.1.0"
-description = "Add your description here"
+description = "LangGraph Advanced Tutorial"
 readme = "README.md"
+authors = [
+    { name="Teddy", email="teddylee777@gmail.com" },
+    { name="Hyunjun Jeon", email="jeonhj920@gmail.com" },
+]
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "arxiv>=2.3.0",
@@ -13,7 +17,9 @@ dependencies = [
     "langchain-classic>=1.0.0",
     "langchain-community>=0.4.1",
     "langchain-mcp-adapters>=0.1.12",
+    "langchain-neo4j>=0.6.0",
     "langchain-openai>=1.0.1",
+    "langchain-qdrant>=1.1.0",
     "langchain-tavily>=0.2.12",
     "langchain-teddynote>=0.5.4",
     "langgraph>=1.0.1",
@@ -21,11 +27,14 @@ dependencies = [
     "langgraph-checkpoint-redis>=0.1.2",
     "matplotlib>=3.10.7",
     "mcp>=1.21.0",
+    "mem0ai>=1.0.0",
     "notebook>=7.4.7",
     "pandas>=2.3.3",
     "pdfplumber>=0.11.8",
     "pymupdf>=1.26.6",
     "python-dotenv>=1.2.1",
+    "ragas>=0.3.8",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
+    "tiktoken>=0.12.0",
 ]
