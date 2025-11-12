@@ -1,8 +1,8 @@
 # 1. Neo4J Desktop 환경 설정
 
 ## Neo4J Docker Load & Run: 
-    - `sh docker_image_load.sh`
-    - `sh neo4j_docker_run.sh`
+    - `sh 2_docker_image_load.sh`
+    - `sh 3_neo4j_docker_run.sh`
     - 초기 
         ID: neo4j
         PW: neo4j
